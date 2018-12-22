@@ -55,3 +55,7 @@ The delimiters program tests for balanced delimiters. If there is an unmatched c
 ---
 ##### Stack
 The stack program demonstrates the functions of the data type, including push, pop, and peek.
+
+---
+##### Credits
+Code based off examples in Data Abstraction and Problem Solving with C++: Walls and Mirrors (6th edition).
