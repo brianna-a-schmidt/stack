@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/stack.dir/src/StackLinked.cpp.o CMakeFiles/stack.dir/test/test6.cpp.o  -o stack -lm 

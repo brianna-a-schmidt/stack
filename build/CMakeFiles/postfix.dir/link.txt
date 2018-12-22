@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/postfix.dir/src/StackLinked.cpp.o CMakeFiles/postfix.dir/test/postfix.cpp.o  -o postfix 

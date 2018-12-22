@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Stack.h
+stdexcept
+-
+iostream
+-
+
+../include/StackArray.h
+stdexcept
+-
+iostream
+-
+Stack.h
+../include/Stack.h
+
+../include/StackLinked.h
+stdexcept
+-
+iostream
+-
+Stack.h
+../include/Stack.h
+
+/Users/briannaschmidt/Documents/CS302/proj/src/StackArray.cpp
+StackArray.h
+-
+
+/Users/briannaschmidt/Documents/CS302/proj/src/StackLinked.cpp
+StackLinked.h
+/Users/briannaschmidt/Documents/CS302/proj/src/StackLinked.h
+
+/Users/briannaschmidt/Documents/CS302/proj/test/delimiters.cpp
+iostream
+-
+../src/StackLinked.cpp
+/Users/briannaschmidt/Documents/CS302/proj/src/StackLinked.cpp
+../src/StackArray.cpp
+/Users/briannaschmidt/Documents/CS302/proj/src/StackArray.cpp
+
